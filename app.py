@@ -184,7 +184,7 @@ def login_action():
   else:
     flash('Invalid username or password')  # send message to next page
     response = redirect(url_for('login_page'))
-   return response
+  return response
 
 
 @app.route('/createTodo', methods=['POST'])
